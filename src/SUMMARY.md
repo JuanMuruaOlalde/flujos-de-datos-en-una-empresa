@@ -1,0 +1,15 @@
+# Summary
+
+- [Comercial y Ventas](./comercial_y_ventas.md)
+- [Administración general, Contabilidad y Finanzas](./administracion.md)
+- [Postventa](./postventa.md)
+- [Compras](./compras.md)
+- [Almacenes y Logística](./almacenes_y_logistica.md)
+- [Fabricacion de productos](./fabricacion.md)
+- [Mantenimiento de infraestructuras](./mantenimiento.md)
+- [Diseño técnico de productos](./diseño_tecnico.md)
+- [Marketing](./marketing.md)
+- [Dirección](./direccion.md)
+- [Personas empleadas](./personas.md)
+- [Clientes](./clientes.md)
+- [Proveedores](./proveedores.md)
