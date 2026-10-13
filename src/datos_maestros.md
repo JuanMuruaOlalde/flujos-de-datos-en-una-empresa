@@ -14,5 +14,17 @@ Como mínimo los códigos de artículo y sus descripciones en varios idiomas.
 
 También suele ser interesante una clasificación básica, por familias o grupos, para facilitar encontrarlos. Como toda clasificación, mejor si puede ser a base de etiquetas (un mismo artículo puede aparecer en varias familias o grupos).
 
+#### Clientes
+
+El núcleo común, igual en toda la empresa:
+- Código de cliente.
+- Razón social.
+- Identificación fiscal.
+
+El resto de la información del cliente la mantiene cada departamento, en su parte:
+- Información comercial, en [Comercial y Ventas](./comercial_y_ventas.md#cliente).
+- Información fiscal y financiera, en [Administración general, Contabilidad y Finanzas](./administracion.md#cliente).
+- Información logística, en [Almacenes y Logística](./almacenes_y_logistica.md#cliente).
+
 #### Categorias de proveedor
 

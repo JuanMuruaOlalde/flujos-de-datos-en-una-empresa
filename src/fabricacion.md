@@ -1,2 +1,0 @@
-# Fabricacion de productos
-
