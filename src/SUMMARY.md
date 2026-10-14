@@ -18,3 +18,4 @@
 - [Departamento de personal](./departamento_personal.md)
 - [Clientes](./clientes.md)
 - [Proveedores](./proveedores.md)
+- [apéndice: algunos aspectos prácticos](./algunos_aspectos_practicos.md)
