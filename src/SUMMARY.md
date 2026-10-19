@@ -16,3 +16,4 @@
 - [Sistemas de información, IT](./sistemas_de_informacion.md)
 - [Dirección](./direccion.md)
 - [Departamento de personal](./departamento_personal.md)
+- [apéndice: algunos aspectos prácticos](./algunos_aspectos_practicos.md)
