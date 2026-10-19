@@ -29,13 +29,13 @@ mdbook serve --open   # vista previa en el navegador, se regenera al guardar
 - `src/SUMMARY.md` define el índice y el orden de los capítulos. Un capítulo solo aparece en el libro si está enlazado ahí.
 - Cada capítulo es un archivo en `src/` con nombre en snake_case. El título visible ha de coincidir en `SUMMARY.md` y en el `#` del propio archivo (si se renombra un capítulo, cambiar los tres: nombre de archivo, `SUMMARY.md` y `#`).
 - `datos_maestros.md` es transversal: datos y categorías que han de ser iguales en toda la empresa.
-- El resto de capítulos son departamentos, salvo `clientes.md` y `proveedores.md`, que son actores externos.
+- El resto de capítulos son departamentos.
 - Convención de niveles de título dentro de un capítulo (ver `comercial_y_ventas.md` y `datos_maestros.md`):
   - `#` nombre del capítulo,
   - `## Algunas entidades habituales` (o `## Algunos maestros habituales`),
   - `###` agrupaciones de entidades (p. ej. en `comercial_y_ventas.md`); mientras un capítulo no las tenga, se deja el título provisional "Este tercer nivel de título lo reservo por si en un futuro hay agrupaciones",
   - `####` cada entidad (Cliente, Pedido, Artículo...), con una lista de los bloques de información que contiene.
-- Entidades repartidas entre departamentos (p. ej. `Cliente`): el núcleo común va en `datos_maestros.md` y cada departamento describe en su capítulo el bloque que mantiene. En todos esos sitios se citan todos los bloques, con enlaces cruzados (`[texto](./archivo.md#ancla)`). Al añadir un bloque nuevo, actualizar las referencias en todos ellos.
+- Entidades repartidas entre departamentos (p. ej. `Cliente` y `Proveedor`): el núcleo común va en `datos_maestros.md` y cada departamento describe en su capítulo el bloque que mantiene. En todos esos sitios se citan todos los bloques, con enlaces cruzados (`[texto](./archivo.md#ancla)`). Al añadir un bloque nuevo, actualizar las referencias en todos ellos.
 
 
 ## Flujo de trabajo

@@ -38,7 +38,7 @@ Imprescindible si se intercambian pedidos por EDI.
 - Promociones. Periodo de validez.
 - Rappels. Descuentos por volumen anual. Escalas.
 
-Los rappels se han de ir provisionando en contabilidad (ver [Administración general, Contabilidad y Finanzas](./administracion.md)).
+Los rappels se han de ir provisionando en contabilidad (ver [Administración general, Contabilidad y Finanzas](./administracion.md#provisión)).
 
 #### Contrato o acuerdo marco
 - Precios y condiciones pactados con un cliente para un periodo. Volúmenes comprometidos.
@@ -68,7 +68,7 @@ En empresas industriales suele necesitar la colaboración de [Diseño técnico d
 - Información de cabecera. Fechas. Condiciones.
 - Información de líneas. Articulos. Cantidades. Descuentos. Fecha de entrega comprometida.
 
-Para comprometer una fecha de entrega hay que consultar la disponibilidad en [Almacenes y Logística](./almacenes_y_logistica.md) o la capacidad de [Fabricación o Servicios](./fabricacion_o_servicios.md).
+Para comprometer una fecha de entrega hay que consultar la disponibilidad en [Almacenes y Logística](./almacenes_y_logistica.md#stock) o la capacidad de [Fabricación o Servicios](./fabricacion_o_servicios.md).
 
 #### Devolución o Abono
 - Artículos y cantidades devueltos. Motivo. Importe a abonar.

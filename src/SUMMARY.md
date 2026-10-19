@@ -1,6 +1,6 @@
 # Summary
 
-- [Datos Maestros](./datos_maestros.md)
+- [Datos y categorias maestros globales](./datos_maestros.md)
 - [Comercial y Ventas](./comercial_y_ventas.md)
 - [Administración general, Contabilidad y Finanzas](./administracion.md)
 - [Cumplimiento jurídico](./juridico.md)
@@ -16,5 +16,3 @@
 - [Sistemas de información, IT](./sistemas_de_informacion.md)
 - [Dirección](./direccion.md)
 - [Departamento de personal](./departamento_personal.md)
-- [Clientes](./clientes.md)
-- [Proveedores](./proveedores.md)

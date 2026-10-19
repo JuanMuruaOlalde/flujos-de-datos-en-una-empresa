@@ -26,5 +26,16 @@ El resto de la información del cliente la mantiene cada departamento, en su par
 - Información fiscal y financiera, en [Administración general, Contabilidad y Finanzas](./administracion.md#cliente).
 - Información logística, en [Almacenes y Logística](./almacenes_y_logistica.md#cliente).
 
-#### Categorias de proveedor
+#### Proveedores
+
+El núcleo común, igual en toda la empresa:
+- Código de proveedor.
+- Razón social.
+- Identificación fiscal.
+
+El resto de la información del proveedor la mantiene cada departamento, en su parte:
+- Información de compras, en [Compras](./compras.md#proveedor).
+- Información fiscal y financiera, en [Administración general, Contabilidad y Finanzas](./administracion.md#proveedor).
+- Información de calidad, en [Calidad](./calidad.md#proveedor).
+
 
