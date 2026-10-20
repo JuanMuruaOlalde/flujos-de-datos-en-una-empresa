@@ -6,15 +6,13 @@ Si en alguna parte, por cualquier razón, mantienen alguna variante local de eso
 
 ## Algunos maestros habituales
 
-### Este tercer nivel de título lo reservo por si en un futuro hay agrupaciones
+### Artículos
 
-#### Artículos
+Han de ser comunes, como mínimo los códigos de artículo y sus descripciones en varios idiomas.
 
-Como mínimo los códigos de artículo y sus descripciones en varios idiomas.
+También suele ser interesante una clasificación básica, por familias o grupos, para facilitar encontrarlos. Como toda clasificación, mejor si la clasificación es a base de etiquetas (un mismo artículo puede aparecer en varias familias o grupos -tener varias etiquetas-).
 
-También suele ser interesante una clasificación básica, por familias o grupos, para facilitar encontrarlos. Como toda clasificación, mejor si puede ser a base de etiquetas (un mismo artículo puede aparecer en varias familias o grupos).
-
-#### Clientes
+### Clientes
 
 El núcleo común, igual en toda la empresa:
 - Código de cliente.
@@ -26,7 +24,7 @@ El resto de la información del cliente la mantiene cada departamento, en su par
 - Información fiscal y financiera, en [Administración general, Contabilidad y Finanzas](./administracion.md#cliente).
 - Información logística, en [Almacenes y Logística](./almacenes_y_logistica.md#cliente).
 
-#### Proveedores
+### Proveedores
 
 El núcleo común, igual en toda la empresa:
 - Código de proveedor.
@@ -38,4 +36,7 @@ El resto de la información del proveedor la mantiene cada departamento, en su p
 - Información fiscal y financiera, en [Administración general, Contabilidad y Finanzas](./administracion.md#proveedor).
 - Información de calidad, en [Calidad](./calidad.md#proveedor).
 
+### Plan de cuentas
+
+En un grupo multinacional suele haber un plan de cuentas común y uno local en cada país, con su tabla de equivalencias. Es un caso claro de maestro global con variantes locales (ver [Administración general, Contabilidad y Finanzas](./administracion.md#plan-de-cuentas)).
 

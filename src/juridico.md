@@ -9,7 +9,12 @@
 - Obligaciones y penalizaciones. Garantías exigidas. Ley aplicable y jurisdicción.
 - Documento firmado. Versiones anteriores.
 
-Los contratos los negocian otros departamentos: con clientes en [Comercial y Ventas](./comercial_y_ventas.md#contrato-o-acuerdo-marco), con proveedores en [Compras](./compras.md#contrato-o-acuerdo-marco), con empleados en [Departamento de personal](./departamento_personal.md#contrato-laboral). Aquí se revisan, se custodian y se vigilan los vencimientos.
+Los contratos los negocian otros departamentos:
+- con clientes en [Comercial y Ventas](./comercial_y_ventas.md#contrato-o-acuerdo-marco),
+- con proveedores en [Compras](./compras.md#contrato-o-acuerdo-marco),
+- con empleados en [Departamento de personal](./departamento_personal.md#contrato-laboral).
+
+Aquí se revisan, se custodian y se vigilan los vencimientos.
 
 #### Poder o Apoderamiento
 - Persona apoderada. Qué puede firmar. Límites de importe. Firma solidaria o mancomunada. Fechas de otorgamiento y de revocación.
@@ -21,7 +26,7 @@ Lo consultan quienes han de firmar contratos, pedidos, avales o pagos.
 #### Registro de actividades de tratamiento
 - Qué datos personales se tratan. Para qué. Base legal. Quién accede. Cuánto tiempo se conservan. Medidas de seguridad.
 
-Recoge los tratamientos de todos los departamentos: personas de contacto de clientes y proveedores, empleados, candidatos, videovigilancia...
+Recoge los tratamientos de todos los departamentos: personas de contacto de clientes y proveedores, empleados, candidatos, videovigilancia,...
 
 #### Consentimiento
 - Persona. Para qué lo da. Fecha y canal. Retirada.
@@ -31,7 +36,7 @@ Imprescindible para las comunicaciones comerciales de [Marketing](./marketing.md
 #### Ejercicio de derechos
 - Solicitud de acceso, rectificación, supresión u oposición. Persona. Fecha. Plazo de respuesta. Respuesta dada.
 
-Para responder hay que localizar los datos de esa persona en todos los sistemas (ver [Sistemas de información, IT](./sistemas_de_informacion.md)).
+Para responder hay que localizar todos los datos de esa persona, en todos los sistemas.
 
 #### Encargado del tratamiento
 - Proveedor que trata datos personales por cuenta nuestra (gestoría, servicios en la nube, mantenimiento informático...). Contrato de encargo. Garantías que ofrece.
@@ -43,10 +48,10 @@ Normalmente la detecta [Sistemas de información, IT](./sistemas_de_informacion.
 
 ### Cumplimiento normativo
 
-#### Requisito legal
+#### Normativa o requisito legal
 - Norma. Ámbito (fiscal, laboral, ambiental, de producto...). Qué exige. Departamento responsable. Fecha de entrada en vigor.
 
-Cada área técnica vigila su parte (ver [Calidad](./calidad.md) y [Prevención y Medio Ambiente](./prevencion_y_medioambiente.md)).
+Cada área técnica vigila su parte (ver [Calidad](./calidad.md), [Prevención y Medio Ambiente](./prevencion_y_medioambiente.md), [Fabricación o servicios](./fabricacion_o_servicios.md), etc.).
 
 #### Mapa de riesgos de cumplimiento
 - Riesgo. Actividad o departamento donde se puede dar. Probabilidad. Impacto. Controles establecidos.
@@ -54,7 +59,7 @@ Cada área técnica vigila su parte (ver [Calidad](./calidad.md) y [Prevención 
 #### Código ético y políticas internas
 - Documento. Versión. Fecha de aprobación. Personas que lo han recibido y aceptado.
 
-#### Denuncia interna
+#### Denuncia interna (*whistleblowing*)
 - Hechos comunicados. Fecha. Canal. Investigación. Resolución.
 
 El canal ha de garantizar la confidencialidad de quien denuncia.
@@ -63,7 +68,11 @@ El canal ha de garantizar la confidencialidad de quien denuncia.
 - Clasificación de los artículos (doble uso, licencias necesarias).
 - Comprobación de clientes y destinos en las listas de sanciones.
 
-Necesita datos de [Diseño técnico de productos](./diseño_tecnico.md) (qué es el artículo), de [Comercial y Ventas](./comercial_y_ventas.md) (a quién se vende) y de [Almacenes y Logística](./almacenes_y_logistica.md) (adónde se envía).
+Necesita datos de:
+- [Diseño técnico de productos](./diseño_tecnico.md) (qué es el artículo),
+- [Comercial y Ventas](./comercial_y_ventas.md) (a quién se vende)
+- [Almacenes y Logística](./almacenes_y_logistica.md) (adónde se envía),
+- etc.
 
 ### Propiedad industrial e intelectual
 
@@ -90,13 +99,15 @@ Lo necesitan todos: cada pedido, factura, contrato o nómina pertenece a una soc
 
 Muchos acuerdos los prepara [Dirección](./direccion.md).
 
+Ciertos tipos de reuniones reguieren levantamiento y conservación de un acta formal. 
+
 #### Litigio o Reclamación judicial
 - Partes. Objeto. Importe reclamado. Tribunal. Abogado externo. Estado. Plazos.
 
 Si hay riesgo de perder, se provisiona en contabilidad (ver [Administración general, Contabilidad y Finanzas](./administracion.md#provisión)).
 
 
-## Algunas de las principales normativas a vigilar su cumplimiento (compliance)
+## Algunas de las principales normativas a vigilar su cumplimiento (*compliance*)
 
 UNE-ISO 19600:2015 - Guia para sistemas de gestión de compliance
 

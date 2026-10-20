@@ -4,7 +4,7 @@
 
 ### Clientes y contactos
 
-#### cliente
+#### Cliente
 
 El núcleo común (código, razón social, identificación fiscal) está en los [Datos maestros](./datos_maestros.md#clientes). 
 
@@ -15,12 +15,12 @@ El resto de la información del cliente la mantienen otros departamentos:
 - Información fiscal y financiera, en [Administración general, Contabilidad y Finanzas](./administracion.md#cliente).
 - Información logística, en [Almacenes y Logística](./almacenes_y_logistica.md#cliente).
 
-#### cliente potencial
-También llamado *lead*. Alguien que aún no compra.
+#### Cliente potencial
+También llamado *lead*, es alguien que aún no compra.
 - Información básica. Nombre o razón social. Origen (feria, web, recomendación...).
 - Estado. Cuándo pasa a ser Cliente y quién lo decide.
 
-#### persona de contacto
+#### Persona de contacto
 - Información de contacto. Nombre. Cargo. Teléfono. Email. Idioma.
 - Cliente o potencial cliente al que pertenece.
 
@@ -29,82 +29,87 @@ Son datos personales, sujetos a la normativa de protección de datos (ver [Cumpl
 
 ### Maestros para ventas
 
-#### referencia cruzada de artículos
+#### Referencia cruzada de artículos
 - Código y descripción con que cada cliente denomina a nuestros artículos.
 
 Imprescindible si se intercambian pedidos por EDI.
 
-#### listas de precios
+#### Listas de precios
 Por tipo de cliente. Por zonas. Por épocas del año.
 
-#### descuentos, promociones y rappels
+#### Descuentos, promociones y rappels
 - Descuentos. Por cliente. Por familia de artículos. Por cantidad.
 - Promociones. Periodo de validez.
 - Rappels. Descuentos por volumen anual. Escalas.
 
 Los rappels se han de ir provisionando en contabilidad (ver [Administración general, Contabilidad y Finanzas](./administracion.md#provisión)).
 
-#### contrato o acuerdo marco
+#### Contrato o acuerdo marco
 - Precios y condiciones pactados con un cliente para un periodo. Volúmenes comprometidos.
 
 Ver también [Cumplimiento jurídico](./juridico.md).
 
-#### condiciones de entrega
+#### Condiciones de entrega
 - Incoterms. Portes. Plazos de entrega.
 
 
 ### Gestión del ciclo de ventas
 
-#### acción comercial
+#### Acción comercial
 Una entrada en el CRM
 
-#### oportunidad
+#### Oportunidad
 - Fase. Probabilidad. Importe estimado. Fecha prevista de cierre.
 
 Alimenta el embudo de ventas (*pipeline*).
 
-#### oferta o presupuesto
-- Información de cabecera. Fechas. Validez. Versión.
-- Información de líneas. Artículos. Cantidades. Precios.
+#### Oferta o presupuesto
+- Información de cabecera: Fechas. Validez. Versión.
+- Información de líneas: Artículos. Cantidades. Precios.
 
 En empresas industriales suele necesitar la colaboración de [Diseño técnico de productos](./diseño_tecnico.md) (configuración, ingeniería de oferta).
 
-#### pedido
-- Información de cabecera. Fechas. Condiciones.
-- Información de líneas. Articulos. Cantidades. Descuentos. Fecha de entrega comprometida.
+#### Pedido
+- Información de cabecera: Fechas. Condiciones.
+- Información de líneas: Articulos. Cantidades. Descuentos. Fecha de entrega comprometida.
 
 Para comprometer una fecha de entrega hay que consultar la disponibilidad en [Almacenes y Logística](./almacenes_y_logistica.md#stock) o la capacidad de [Fabricación o Servicios](./fabricacion_o_servicios.md).
 
-#### contrato de servicio o suscripción
+#### Contrato de servicio o suscripción
 - Periodicidad. Cuotas recurrentes. Renovaciones.
 
-#### proyecto
+#### Proyecto
 - Hitos. Horas. Facturación por avance.
 
-#### devolución o abono
+#### Devolución o abono
 - Artículos y cantidades devueltos. Motivo. Importe a abonar.
 
-A caballo con [Postventa](./postventa.md).
+Se gestionan a caballo con [Postventa](./postventa.md).
 
 
 
 ### Organización y objetivos
 
-#### comercial y su cartera
+#### Comercial y su cartera
 - Clientes, zonas o canales asignados a cada comercial.
 
-#### categorías de cliente
+#### Categorías de cliente
 - Zona. Canal (venta directa, distribuidor, online...). Segmento. Sector.
 
-#### objetivos de ventas
+#### Objetivos de ventas
 - Por comercial, zona, cliente o familia de artículos. Por periodo.
 
-#### previsión de ventas
+#### Previsión de ventas
 - Cantidades previstas por artículo (o familia) y periodo.
 
-Es uno de los datos de Ventas más útiles para otros departamentos: [Compras](./compras.md), [Fabricación o Servicios](./fabricacion_o_servicios.md), [Almacenes y Logística](./almacenes_y_logistica.md), [Dirección](./direccion.md).
+Es uno de los datos de Ventas más útiles para otros departamentos, tales como:
+- [Compras](./compras.md),
+- [Fabricación o Servicios](./fabricacion_o_servicios.md),
+- [Almacenes y Logística](./almacenes_y_logistica.md),
+- [Dirección](./direccion.md),
+- etc.
 
-#### comisiones
+#### Comisiones
 - Reglas de cálculo. Importes devengados por cada comercial.
 
 Acaban en la nómina (ver [Departamento de personal](./departamento_personal.md)).

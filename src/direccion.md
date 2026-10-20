@@ -7,10 +7,10 @@
 #### Plan estratégico
 - Visión a varios años. Objetivos. Iniciativas. Responsables.
 
-#### Objetivo e Indicador clave
+#### Objetivo e Indicador clave (*KPI*)
 - Qué se mide. Cómo se calcula. Meta. Responsable. Periodicidad.
 
-También llamados KPI. Cada indicador ha de tener una definición única: si cada departamento lo calcula a su manera, no hay forma de comparar.
+Cada indicador ha de tener una definición única: si cada departamento lo calcula a su manera, no hay forma de comparar.
 
 #### Presupuesto anual
 - Ventas, gastos e inversiones previstos. Por sociedad, departamento y mes.
@@ -19,15 +19,17 @@ Junta los presupuestos de todos los departamentos, empezando por los [Objetivos 
 
 ### Seguimiento
 
-#### Cuadro de mando
+#### Cuadro de mando (*dashboard*)
 - Indicadores clave. Valores reales frente a objetivos y presupuesto. Evolución en el tiempo. Detalle por sociedad, departamento, cliente, producto...
 
-Se alimenta del [Almacén de datos](./sistemas_de_informacion.md#almacén-de-datos), con datos de todos los departamentos. Mejor si permite bajar al detalle (*drill-down*) sin tener que pedir informes a nadie.
+Se alimenta del [Almacén de datos](./sistemas_de_informacion.md#almacén-de-datos), con datos de todos los departamentos.
+
+Mejor si permite bajar al detalle (*drill-down*) sin tener que pedir informes a nadie.
 
 #### Alerta
 - Qué ha pasado. Gravedad. A quién avisar. Qué se ha hecho.
 
-Incidencias graves que la dirección ha de conocer enseguida: un accidente grave (ver [Prevención y Medio Ambiente](./prevencion_y_medioambiente.md#accidente-o-incidente)), la reclamación de un cliente importante, un ciberataque...
+Incidencias graves que la dirección ha de conocer enseguida. Incidencias tales como: un accidente grave (ver [Prevención y Medio Ambiente](./prevencion_y_medioambiente.md#accidente-o-incidente)), la reclamación de un cliente importante, un ciberataque, etc.
 
 ### Decisiones
 
@@ -39,7 +41,9 @@ Los acuerdos de los órganos de la sociedad van además a las [Actas](./juridico
 #### Inversión
 - Objetivo. Importe. Rentabilidad esperada. Aprobación. Seguimiento del gasto real.
 
-Las propuestas suelen venir de [Mantenimiento de infraestructuras](./mantenimiento.md#proyecto-de-mejora-o-de-ampliación), [Fabricación o Servicios](./fabricacion_o_servicios.md) y [Sistemas de información, IT](./sistemas_de_informacion.md). Una vez hechas, pasan a contabilidad como inmovilizado (ver [Administración general, Contabilidad y Finanzas](./administracion.md#inmovilizado)).
+Las propuestas suelen venir principalmente de [Mantenimiento de infraestructuras](./mantenimiento.md#proyecto-de-mejora-o-de-ampliación), [Fabricación o Servicios](./fabricacion_o_servicios.md) y [Sistemas de información, IT](./sistemas_de_informacion.md).
+
+Una vez hechas, las inversiones pasan a contabilidad como inmovilizado (ver [Administración general, Contabilidad y Finanzas](./administracion.md#inmovilizado)).
 
 #### Riesgo empresarial
 - Tipo (estratégico, financiero, operativo, de cumplimiento...). Probabilidad. Impacto. Medidas. Responsable.

@@ -9,7 +9,7 @@
 - Configuración real tal como se entregó (opciones, versiones de software, componentes sustituidos después).
 - Historial de intervenciones.
 
-También llamado *base instalada*. El número de serie enlaza con la trazabilidad de [Fabricación o Servicios](./fabricacion_o_servicios.md#lote-o-número-de-serie).
+El número de serie enlaza con la trazabilidad de [Fabricación o Servicios](./fabricacion_o_servicios.md#lote-o-número-de-serie).
 
 #### Garantía
 - Equipo o artículo. Fechas de inicio y de fin. Qué cubre (piezas, mano de obra, desplazamientos).
@@ -19,12 +19,14 @@ Decide si una intervención se factura o no.
 #### Documentación de la instalación
 - Planos y esquemas tal como se construyó. Manuales. Programas y parámetros cargados.
 
-En instalaciones grandes o personalizadas. Se guarda en el PDM, junto a la documentación de producto de [Diseño técnico de productos](./diseño_tecnico.md).
+En instalaciones grandes o personalizadas a medida para un cliente. Se guarda en el PDM, junto a la documentación de producto de [Diseño técnico de productos](./diseño_tecnico.md).
 
 #### Datos de uso del equipo
-- Horas de funcionamiento. Alarmas. Lecturas de sensores. Recibidos a distancia, si el equipo está conectado.
+- Horas de funcionamiento. Alarmas. Lecturas de sensores.
 
-Permiten pasar del mantenimiento preventivo al predictivo. Y son una fuente muy valiosa para [Diseño técnico de productos](./diseño_tecnico.md) y [Marketing](./marketing.md): cómo se usa realmente el producto.
+Recibidos a distancia, si el equipo está conectado.
+
+Permiten pasar del mantenimiento preventivo al predictivo. Y son una fuente muy valiosa para [Diseño técnico de productos](./diseño_tecnico.md) y [Marketing](./marketing.md): ya que permiten ver cómo se usa realmente el producto.
 
 ### Atención al cliente
 
@@ -50,24 +52,30 @@ Para asignar un técnico hay que conocer su disponibilidad y su cualificación (
 - Trabajos realizados. Horas. Desplazamientos. Repuestos utilizados. Causa del fallo.
 - Fotos. Firma del cliente.
 
-Es uno de los datos de Postventa más útiles para otros departamentos: [Administración general, Contabilidad y Finanzas](./administracion.md#factura-de-cliente) (facturar lo que no cubre la garantía), [Departamento de personal](./departamento_personal.md) (horas, dietas), [Almacenes y Logística](./almacenes_y_logistica.md) (repuestos consumidos), [Calidad](./calidad.md) y [Diseño técnico de productos](./diseño_tecnico.md) (fallos en campo).
+Es uno de los datos de Postventa más útiles para otros departamentos:
+- [Administración general, Contabilidad y Finanzas](./administracion.md#factura-de-cliente) (facturar lo que no cubre la garantía),
+- [Departamento de personal](./departamento_personal.md) (horas, dietas),
+- [Almacenes y Logística](./almacenes_y_logistica.md) (repuestos consumidos),
+- [Calidad](./calidad.md)
+- [Diseño técnico de productos](./diseño_tecnico.md) (fallos en campo),
+- etc.
 
 #### Repuesto
 - Artículos de repuesto de cada equipo. Stock en almacén y en los vehículos de los técnicos. Plazo de suministro.
 
-Hay que garantizarlos durante años, aunque el producto ya no se fabrique (ver [Compras](./compras.md)).
+Hay que garantizarlos durante años, aunque el producto ya no se fabrique.
 
 #### Devolución o RMA
 - Equipo o artículo devuelto. Motivo. Diagnóstico. Decisión (reparar, sustituir, abonar).
 
-A caballo con [Comercial y Ventas](./comercial_y_ventas.md#devolución-o-abono).
+Se gestionan a caballo con [Comercial y Ventas](./comercial_y_ventas.md#devolución-o-abono).
 
 ### Contratos de servicio
 
 #### Contrato de mantenimiento
 - Equipos cubiertos. Nivel de servicio (tiempo de respuesta, horario). Visitas preventivas incluidas.
 
-Lo vende [Comercial y Ventas](./comercial_y_ventas.md#contrato-de-servicio-o-suscripción). Postventa ha de cumplirlo.
+Lo vende [Comercial y Ventas](./comercial_y_ventas.md#contrato-de-servicio-o-suscripción). Postventa se encarga de cumplirlo.
 
 #### Plan de mantenimiento de equipos de clientes
 - Tareas preventivas. Frecuencia. Próxima visita.

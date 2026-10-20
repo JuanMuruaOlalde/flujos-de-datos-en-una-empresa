@@ -15,19 +15,25 @@ Buena parte de esta información la traen los comerciales de sus visitas (ver [C
 #### Público objetivo
 - Segmentos a los que se dirige cada producto o campaña. Perfil. Necesidades.
 
-Conviene que use las mismas [Categorías de cliente](./comercial_y_ventas.md#categorías-de-cliente) que Comercial y Ventas.
+Conviene que use las mismas [Categorías de cliente](./comercial_y_ventas.md#categorías-de-cliente) que usa Comercial y Ventas.
 
 ### Producto y marca
 
 #### Información comercial de producto
 - Nombre comercial. Descripciones y argumentos de venta en cada idioma. Imágenes. Vídeos. Características destacadas.
 
-Se elabora a partir de los datos técnicos de [Diseño técnico de productos](./diseño_tecnico.md#especificación-técnica). Alimenta la web, los catálogos, las tiendas en línea y las ofertas de [Comercial y Ventas](./comercial_y_ventas.md#oferta-o-presupuesto).
+Se elabora a partir de los datos técnicos de [Diseño técnico de productos](./diseño_tecnico.md#especificación-técnica).
+
+Alimenta la web, los catálogos, las tiendas en línea, las ofertas de [Comercial y Ventas](./comercial_y_ventas.md#oferta-o-presupuesto),...
 
 #### Imagen corporativa
 - Logotipos. Colores. Tipografías. Plantillas de documentos.
 
-Se aplica a todo documento que sale de la empresa: ofertas, facturas, albaranes, manuales, correos... Las plantillas se guardan en el PDM. Las marcas y logotipos se registran a través de [Cumplimiento jurídico](./juridico.md#patente-marca-o-diseño-registrado).
+Se aplica a todo documento que sale de la empresa: ofertas, facturas, albaranes, manuales, correos,... 
+
+Las plantillas se guardan en el PDM.
+
+Las marcas y logotipos se registran a través de [Cumplimiento jurídico](./juridico.md#patente-marca-o-diseño-registrado).
 
 ### Campañas y comunicación
 
@@ -57,14 +63,16 @@ Las quejas que llegan por aquí se pasan a [Postventa](./postventa.md#incidencia
 #### Solicitud de información
 - Formulario web, chat, correo... Persona. Empresa. Qué le interesa.
 
-Pasa a [Comercial y Ventas](./comercial_y_ventas.md#potencial-cliente). Conviene saber después si acabó en venta, para medir qué campañas funcionan.
+Las solicitudes que llegan por aquí se pasan a [Comercial y Ventas](./comercial_y_ventas.md#potencial-cliente). Conviene saber después si acabó en venta, para medir qué campañas funcionan.
 
 ### Análisis
 
 #### Estudio de comportamiento
 - Qué compran los clientes, cuándo, cómo y por qué canal. Qué productos se usan y cómo.
 
-Parte del histórico de ventas, de la web y de los [Datos de uso del equipo](./postventa.md#datos-de-uso-del-equipo). Se elabora con herramientas de minería de datos, sobre el almacén de datos que prepara [Sistemas de información, IT](./sistemas_de_informacion.md#almacén-de-datos).
+Parte del histórico de ventas, de la web y de los [Datos de uso del equipo](./postventa.md#datos-de-uso-del-equipo).
+
+Se elabora con herramientas de minería de datos, sobre el almacén de datos que prepara [Sistemas de información, IT](./sistemas_de_informacion.md#almacén-de-datos).
 
 #### Presupuesto de marketing
 - Por campaña, canal o producto. Por periodo. Gasto real.

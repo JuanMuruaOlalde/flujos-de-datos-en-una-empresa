@@ -6,7 +6,9 @@
 
 #### Proveedor
 
-El núcleo común (código, razón social, identificación fiscal) está en los [Datos maestros](./datos_maestros.md#proveedores). Aquí se mantiene la parte de compras:
+El núcleo común (código, razón social, identificación fiscal) está en los [Datos maestros](./datos_maestros.md#proveedores).
+
+Aquí se mantiene la parte de compras:
 - Información de compras. Comprador asignado. Categorías de proveedor. Condiciones de compra. Idioma.
 
 El resto de la información del proveedor la mantienen otros departamentos:
@@ -17,7 +19,7 @@ El resto de la información del proveedor la mantienen otros departamentos:
 - Información básica. Nombre o razón social. Qué puede suministrar. Origen (feria, búsqueda, recomendación...).
 - Estado. Cuándo pasa a ser Proveedor y quién lo decide.
 
-Normalmente no se le puede comprar hasta que [Calidad](./calidad.md#proveedor) lo homologa.
+Normalmente no se le puede comprar a un cierto proveedor hasta que [Calidad](./calidad.md#proveedor) lo homologa.
 
 #### Persona de contacto
 - Información de contacto. Nombre. Cargo. Teléfono. Email. Idioma.
@@ -56,7 +58,7 @@ Puede venir de cualquier departamento, o generarse automáticamente desde la pla
 #### Petición de oferta
 - Proveedores consultados. Artículos o servicios. Cantidades. Fecha límite de respuesta.
 
-Para artículos nuevos o especiales hay que adjuntar planos y especificaciones de [Diseño técnico de productos](./diseño_tecnico.md).
+Para artículos nuevos o articulos especiales hay que adjuntar planos y especificaciones de [Diseño técnico de productos](./diseño_tecnico.md).
 
 #### Oferta del proveedor
 - Precios. Plazos. Condiciones. Validez.
@@ -64,26 +66,26 @@ Para artículos nuevos o especiales hay que adjuntar planos y especificaciones d
 Comparando las de varios proveedores se elige a quién comprar.
 
 #### Pedido de compra
-- Información de cabecera. Fechas. Condiciones.
-- Información de líneas. Artículos. Cantidades. Precios. Fecha de entrega solicitada y fecha confirmada por el proveedor.
+- Información de cabecera: Fechas. Condiciones.
+- Información de líneas: Artículos. Cantidades. Precios. Fecha de entrega solicitada y fecha confirmada por el proveedor.
 
 El proveedor puede recibirlo por EDI o consultarlo (y confirmarlo) en un portal de proveedores. [Almacenes y Logística](./almacenes_y_logistica.md#previsión-de-llegadas) necesita conocerlo para preparar las recepciones.
 
 #### Seguimiento de entregas
 - Pedidos con retraso. Reclamaciones al proveedor. Nuevas fechas.
 
-Los retrasos afectan a la planificación de [Fabricación o Servicios](./fabricacion_o_servicios.md) y a las fechas comprometidas por [Comercial y Ventas](./comercial_y_ventas.md#pedido).
+Los retrasos afectan a la planificación de [Fabricación o Servicios](./fabricacion_o_servicios.md) y/o a las fechas comprometidas por [Comercial y Ventas](./comercial_y_ventas.md#pedido).
 
 #### Recepción
 - Albarán del proveedor. Artículos y cantidades recibidos. Fecha. Pedido al que corresponde.
 
-La registra [Almacenes y Logística](./almacenes_y_logistica.md#recepción). Si hay inspección, [Calidad](./calidad.md#inspección) decide si se acepta.
+La registra [Almacenes y Logística](./almacenes_y_logistica.md#recepción). Si hay inspección, suele ser [Calidad](./calidad.md#inspección) decide si se acepta o no la recepción.
 
 #### Factura de proveedor
-- Información de cabecera. Fecha. Vencimientos.
-- Información de líneas. Artículos. Cantidades. Precios. Impuestos.
+- Información de cabecera: Fecha. Vencimientos.
+- Información de líneas: Artículos. Cantidades. Precios. Impuestos.
 
-La registra [Administración general, Contabilidad y Finanzas](./administracion.md#factura-de-proveedor). Antes de pagarla se cruza con el pedido y con la recepción: que lo facturado se haya pedido y se haya recibido, y al precio pactado.
+La registra [Administración general, Contabilidad y Finanzas](./administracion.md#factura-de-proveedor). Antes de pagarla se cruza con el pedido y con la recepción: que lo facturado se haya pedido, que se haya recibido y que haya sido Ok; además de que los precios en factura coincidan con los acordados en el pedido.
 
 #### Devolución a proveedor
 - Artículos y cantidades devueltos. Motivo. Abono o reposición esperados.
@@ -101,19 +103,25 @@ Suele partir de una no conformidad de [Calidad](./calidad.md#no-conformidad).
 #### Presupuesto de compras
 - Por categoría, familia de artículos o centro de coste. Por periodo.
 
-Se elabora a partir de la [Previsión de ventas](./comercial_y_ventas.md#previsión-de-ventas) y de los planes de [Fabricación o Servicios](./fabricacion_o_servicios.md).
+Se elabora a partir de:
+- la [Previsión de ventas](./comercial_y_ventas.md#previsión-de-ventas)
+- y los planes de [Fabricación o Servicios](./fabricacion_o_servicios.md).
 
 #### Análisis del gasto
 - Importes comprados por proveedor, categoría, artículo y periodo. Ahorros conseguidos.
 
-Lo consulta [Dirección](./direccion.md). Es también la base de las emisiones indirectas en la huella de carbono (ver [Prevención y Medio Ambiente](./prevencion_y_medioambiente.md#huella-de-carbono)).
+Lo consulta [Dirección](./direccion.md).
+
+Es también la base de las emisiones indirectas en la huella de carbono (ver [Prevención y Medio Ambiente](./prevencion_y_medioambiente.md#huella-de-carbono)).
 
 ### Subcontratación
 
 #### Pedido de subcontratación
 - Operación o trabajo encargado. Material que enviamos al subcontratista. Material que nos devuelve.
 
-El subcontratista necesita consultar en el PDM los planos y especificaciones de lo que ha de fabricar (ver [Diseño técnico de productos](./diseño_tecnico.md)). Y hay que saber cuánto material nuestro tiene en su casa (ver [Almacenes y Logística](./almacenes_y_logistica.md#almacén)).
+El subcontratista necesita consultar en el PDM los planos y especificaciones de lo que ha de fabricar (ver [Diseño técnico de productos](./diseño_tecnico.md)).
+
+Nosotros hemos de controlar cuánto material nuestro tiene en su casa (ver [Almacenes y Logística](./almacenes_y_logistica.md#almacén)).
 
 #### Compra de servicios
 - Servicio contratado. Periodo. Certificación de lo realizado (horas, hitos).

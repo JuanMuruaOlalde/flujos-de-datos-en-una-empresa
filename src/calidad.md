@@ -9,6 +9,8 @@
 
 Los documentos de todos los departamentos pasan por aquí: así se sabe que cada cual trabaja con la versión vigente.
 
+Es importante que se almacecen en un solo sitio, accesible por todas las personas que necesiten consultarlos. Así se evita tener que recurrir a copias "controladas" (que suelen tener una gran tendencia a quedar desactualizadas).
+
 #### Certificación
 - Norma (ISO 9001, normas sectoriales...). Alcance. Entidad certificadora. Vigencia.
 
@@ -32,9 +34,9 @@ Han de conocerlos todos los departamentos que trabajan para ese cliente.
 Las características y tolerancias salen de los planos y especificaciones de [Diseño técnico de productos](./diseño_tecnico.md#especificación-técnica).
 
 #### Inspección
-- Dónde (en recepción, durante la fabricación, al final). Artículo. Lote. Resultado de cada característica. Decisión (aceptado, rechazado).
+- Dónde (en recepción, durante la fabricación, al final). Artículo. Lote. Resultado de cada característica medida. Decisión (aceptado, rechazado).
 
-Las de recepción enlazan con la [Recepción](./compras.md#recepción) del pedido de compra. Las de proceso, con el [Lote](./fabricacion_o_servicios.md#lote-o-número-de-serie) fabricado. Mejor si los resultados los registra directamente el equipo de medida.
+Las inspecciones de recepción enlazan con la [Recepción](./compras.md#recepción) del pedido de compra. Las inspecciones de proceso, con el [Lote](./fabricacion_o_servicios.md#lote-o-número-de-serie) fabricado. Mejor si los resultados los registra directamente el equipo de medida (así se evitan errores de transcripción).
 
 #### Certificado de calidad
 - Resultados de análisis o ensayos de un lote. Emitido por un proveedor, o por nosotros para un cliente.
@@ -71,14 +73,16 @@ Lo consultan [Dirección](./direccion.md) y [Administración general, Contabilid
 
 #### Proveedor
 
-El núcleo común (código, razón social, identificación fiscal) está en los [Datos maestros](./datos_maestros.md#proveedores). Aquí se mantiene la parte de calidad:
+El núcleo común (código, razón social, identificación fiscal) está en los [Datos maestros](./datos_maestros.md#proveedores).
+
+Aquí se mantiene la parte de calidad:
 - Información de calidad. Estado de homologación. Certificaciones. Evaluación periódica (calidad, puntualidad, servicio).
 
 El resto de la información del proveedor la mantienen otros departamentos:
 - Información de compras, en [Compras](./compras.md#proveedor).
 - Información fiscal y financiera, en [Administración general, Contabilidad y Finanzas](./administracion.md#proveedor).
 
-Para evaluar la puntualidad se usan los datos de entregas de [Compras](./compras.md) y de [Almacenes y Logística](./almacenes_y_logistica.md).
+Para evaluar la puntualidad del proveedor se usan los datos de entregas de [Compras](./compras.md) y de [Almacenes y Logística](./almacenes_y_logistica.md).
 
 ### Indicadores
 
