@@ -47,7 +47,7 @@ Los conceptos variables vienen de otros departamentos:
 
 Si esos conceptos llegan tarde o incompletos, la nómina sale mal.
 
-Mensualmente, el resultado de la nómina va a [Administración general, Contabilidad y Finanzas](./administracion.md), para contabilizarla y pagarla.  (nota: en algunos paises el periodo es distinto, por ejemplo quincenalmente)
+Mensualmente, el resultado de la nómina va a [Administración general, Contabilidad y Finanzas](./administracion.md), para contabilizarla y pagarla.  (nota: en algunos países el periodo es distinto, por ejemplo quincenalmente)
 
 #### Cotización y comunicaciones oficiales
 - Altas, bajas y variaciones comunicadas a la seguridad social. Cotizaciones. Retenciones declaradas a la administración tributaria.
@@ -93,7 +93,7 @@ La consultan quienes asignan tareas: [Fabricación o Servicios](./fabricacion_o_
 #### Evaluación del desempeño
 - Persona. Periodo. Objetivos. Resultados. Valoración.
 
-Suele estar ligada a los [Objetivos](./direccion.md#objetivo-e-indicador-clave) de la empresa y a la retribución variable.
+Suele estar ligada a los [Objetivos](./direccion.md#objetivo-e-indicador-clave-kpi) de la empresa y a la retribución variable.
 
 #### Carrera profesional
 - Puestos ocupados. Promociones. Formación recibida. Planes de desarrollo.
@@ -107,3 +107,50 @@ Suele estar ligada a los [Objetivos](./direccion.md#objetivo-e-indicador-clave) 
 - Retribuciones por sexo y categoría. Plan de igualdad. Medidas y su seguimiento.
 
 Obligatorio a partir de cierto tamaño. Es también uno de los indicadores del [Informe de sostenibilidad](./prevencion_y_medioambiente.md#informe-de-sostenibilidad).
+
+
+## Algunos potenciales puntos de fricción
+
+### Altas, bajas y cambios de puesto
+
+Para el Departamento de personal, una baja termina cuando se liquida la última nómina y se comunica a la seguridad social. Avisar a todos los demás no forma parte de su trámite. Pero cada cambio en un [Empleado](./departamento_personal.md#empleado) lo necesitan:
+- [Sistemas de información, IT](./sistemas_de_informacion.md#usuario-y-permisos) (dar o quitar accesos; un acceso olvidado de alguien que ya se fue es un riesgo de seguridad),
+- [Prevención y Medio Ambiente](./prevencion_y_medioambiente.md#formación-en-prevención) (formación y aptitud que exige el nuevo puesto),
+- [Administración general, Contabilidad y Finanzas](./administracion.md#centro-de-coste) (a qué centro de coste se imputa),
+- [Fabricación o Servicios](./fabricacion_o_servicios.md#recurso) (personas disponibles para planificar),
+- etc.
+
+Para facilitar el registro:
+- Que un solo registro en el sistema de personal ponga en marcha el resto: avisos a cada departamento, o mejor aún, altas y bajas automáticas de usuarios.
+- Una lista de comprobación por tipo de cambio (alta, baja, cambio de puesto), para no depender de la memoria.
+
+Para hacer ver su valor:
+- Que la propia persona que se incorpora tenga su ordenador, sus accesos y su formación preparados el primer día; es la mejor imagen que puede dar el Departamento de personal.
+
+### Cualificaciones y habilitaciones al día
+
+Personal registra los cursos y los carnés para el expediente de cada persona. Para quien lo registra, el certificado ya está archivado. Pero la [Cualificación](./departamento_personal.md#cualificación) vigente la consultan:
+- [Fabricación o Servicios](./fabricacion_o_servicios.md#recurso), [Mantenimiento de infraestructuras](./mantenimiento.md#técnico-de-mantenimiento) y [Postventa](./postventa.md#aviso-u-orden-de-servicio), al asignar tareas,
+- [Prevención y Medio Ambiente](./prevencion_y_medioambiente.md),
+- los clientes, en algunos sectores, antes de dejar entrar a un técnico,
+- etc.
+
+Para facilitar el registro:
+- Que la habilitación se registre al terminar el curso, con su fecha de caducidad, y si puede ser cargada directamente por la entidad formadora.
+- Avisos automáticos de caducidades próximas, a la persona y a su responsable.
+
+Para hacer ver su valor:
+- Que la persona pueda consultar y descargar sus propias habilitaciones; le sirven a ella para su carrera profesional.
+
+### Ausencias previstas
+
+Las vacaciones y los permisos se suelen pedir y aprobar entre la persona y su responsable, por correo o de palabra. Personal solo necesita saberlas a tiempo para la nómina. Pero la [Ausencia](./departamento_personal.md#ausencia) prevista la necesitan con antelación:
+- [Fabricación o Servicios](./fabricacion_o_servicios.md#programa-de-producción) (capacidad disponible),
+- [Postventa](./postventa.md#aviso-u-orden-de-servicio) (técnicos disponibles para asignar avisos),
+- etc.
+
+Para facilitar el registro:
+- Que la petición y la aprobación se hagan en el propio sistema, desde el móvil, en vez de por correo. Así la ausencia aprobada queda registrada sin trabajo extra.
+
+Para hacer ver su valor:
+- Que cada persona vea en el sistema sus días disponibles, y cada responsable el calendario de su equipo; a ellos también les sirve para organizarse.

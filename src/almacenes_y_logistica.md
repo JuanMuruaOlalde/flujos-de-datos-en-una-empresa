@@ -82,7 +82,7 @@ Mientras viaja, el material está en tránsito: ha salido de un almacén pero a�
 #### Inventario físico
 - Recuento por ubicación. Diferencias con el stock del sistema. Ajustes y su motivo.
 
-Las diferencias se valoran y se contabilizan (ver [Administración general, Contabilidad y Finanzas](./administracion.md#valoración-de-existencias)). Los recuentos cíclicos, por zonas o por artículos, evitan tener que parar comnpletamente una vez al año para contarlo todo.
+Las diferencias se valoran y se contabilizan (ver [Administración general, Contabilidad y Finanzas](./administracion.md#valoración-de-existencias)). Los recuentos cíclicos, por zonas o por artículos, evitan tener que parar completamente una vez al año para contarlo todo.
 
 #### Stock obsoleto o sin movimiento
 - Artículos sin salidas desde hace tiempo, caducados o de revisiones antiguas. Cantidad. Valor.
@@ -164,3 +164,64 @@ Decide qué ubicaciones se asignan (los que más se mueven conviene tenerlos má
 - Puntualidad de los proveedores.
 
 La puntualidad de los proveedores la usa [Calidad](./calidad.md#proveedor) para evaluarlos.
+
+
+## Algunos potenciales puntos de fricción
+
+### Lotes y números de serie en las salidas
+
+Para preparar un pedido basta con coger el artículo y la cantidad correctos. Leer además el lote o el número de serie de cada bulto es un paso más, que al almacén no le aporta nada. Pero sin ese dato en el [Albarán de entrega](./almacenes_y_logistica.md#albarán-de-entrega) no hay trazabilidad hacia delante, y la necesitan:
+- [Calidad](./calidad.md#reclamación-de-cliente) (qué clientes recibieron un lote defectuoso),
+- [Postventa](./postventa.md#equipo-instalado) (qué número de serie tiene cada equipo instalado),
+- [Cumplimiento jurídico](./juridico.md) (si hay que retirar producto del mercado),
+- etc.
+
+Para facilitar el registro:
+- Etiquetas con código de barras o RFID en cada bulto, y una sola lectura que registre a la vez artículo, cantidad y lote.
+- Que el terminal no dé por terminada la preparación hasta haber leído el lote. Sin texto que teclear, no hay errores de transcripción.
+
+Para hacer ver su valor:
+- Explicar casos reales de retirada de producto: con trazabilidad se avisa a unos pocos clientes; sin ella, hay que avisar a todos y revisarlo todo.
+
+### Fecha real de entrega e incidencias de entrega
+
+Una vez cargado el camión, el pedido sale del almacén y deja de ser asunto suyo. Lo que pasa después (cuándo llega, si llega completo, si llega dañado) lo sabe el transportista. Sin embargo, es un dato muy útil para:
+- [Comercial y Ventas](./comercial_y_ventas.md#pedido) (puntualidad frente a la fecha comprometida, avisar al cliente de un retraso),
+- [Administración general, Contabilidad y Finanzas](./administracion.md#factura-de-cliente) (el acuse de recibo firmado zanja muchas discusiones antes de cobrar),
+- [Calidad](./calidad.md) (indicadores de servicio),
+- etc.
+
+Para facilitar el registro:
+- Recibir automáticamente, por EDI o por la web del transportista, el seguimiento de cada [Envío](./almacenes_y_logistica.md#envío) y el acuse de recibo digital, enlazados al número de albarán.
+- Exigirlo en el contrato con el transportista (ver [Compras](./compras.md#compra-de-servicios)).
+
+Para hacer ver su valor:
+- Que Logística vea los indicadores de entrega a tiempo de sus transportistas; le sirven para elegir entre ellos y para reclamarles.
+
+### Pesos y dimensiones de los artículos
+
+Los [Datos logísticos del artículo](./almacenes_y_logistica.md#datos-logísticos-del-artículo) se suelen dar de alta con prisa, cuando llega el primer pedido. Para almacenar basta con saber dónde cabe. Pero un peso o unas dimensiones mal dados afectan a:
+- los transportes (tarifas, carga de camiones),
+- la [huella de carbono](./prevencion_y_medioambiente.md#huella-de-carbono),
+- los [envases y embalajes](./prevencion_y_medioambiente.md#envases-y-embalajes),
+- las declaraciones de comercio exterior (ver [Declaración de impuestos](./administracion.md#declaración-de-impuestos)),
+- etc.
+
+Para facilitar el registro:
+- Medir y pesar en la primera recepción, con una báscula y un medidor de volumen (cubicadora) que pasen los datos directamente al sistema.
+- Pedírselos al proveedor junto con el resto de datos del artículo (ver [Fuente de aprovisionamiento](./compras.md#fuente-de-aprovisionamiento)), o tomarlos del modelo 3D de [Diseño técnico de productos](./diseño_tecnico.md#modelo-y-plano) si es de fabricación propia.
+
+Para hacer ver su valor:
+- Mostrar las diferencias entre lo que factura el transportista (que sí pesa) y lo calculado con los datos del sistema: son errores que se pagan.
+
+### Casi accidentes
+
+Una carretilla que casi atropella a alguien, una carga que casi cae... Como no ha pasado nada, nadie lo apunta. Es justo el tipo de dato que necesita [Prevención y Medio Ambiente](./prevencion_y_medioambiente.md#accidente-o-incidente) para actuar antes de que haya un accidente de verdad.
+
+Para facilitar el registro:
+- Un formulario muy corto, en el móvil o en un terminal del propio almacén: dónde, qué pasó, foto. Anónimo si se quiere.
+- No pedir causas ni análisis a quien lo comunica; eso lo hace después Prevención.
+
+Para hacer ver su valor:
+- Responder siempre, y publicar qué se ha cambiado gracias a cada comunicación (un espejo, una señal, un cambio de recorrido).
+- Nunca usarlo para buscar culpables. Si comunicar un casi accidente trae problemas, se deja de comunicar.

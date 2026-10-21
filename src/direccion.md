@@ -15,7 +15,7 @@ Cada indicador ha de tener una definición única: si cada departamento lo calcu
 #### Presupuesto anual
 - Ventas, gastos e inversiones previstos. Por sociedad, departamento y mes.
 
-Junta los presupuestos de todos los departamentos, empezando por los [Objetivos o Presupuesto de ventas](./comercial_y_ventas.md#objetivos-o-presupuesto-de-ventas). Lo consolida [Administración general, Contabilidad y Finanzas](./administracion.md).
+Junta los presupuestos de todos los departamentos, empezando por los [Objetivos de ventas](./comercial_y_ventas.md#objetivos-de-ventas). Lo consolida [Administración general, Contabilidad y Finanzas](./administracion.md).
 
 ### Seguimiento
 
@@ -56,3 +56,34 @@ Incluye los riesgos legales del [Mapa de riesgos de cumplimiento](./juridico.md#
 - Sociedades, departamentos y sus responsables. Quién depende de quién.
 
 Lo mantiene [Departamento de personal](./departamento_personal.md#puesto-de-trabajo). Lo necesitan todos: para saber a quién dirigirse y para los circuitos de aprobación (compras, gastos, vacaciones...).
+
+
+## Algunos potenciales puntos de fricción
+
+### Decisiones tomadas en las reuniones
+
+En un comité de dirección se toman decisiones que a sus asistentes les quedan claras. Dejarlas registradas, con su responsable y su plazo, en la [Reunión y Acuerdo](./direccion.md#reunión-y-acuerdo), les parece un trámite. Pero quienes no estaban necesitan conocerlas:
+- los departamentos que las han de ejecutar,
+- quienes tienen que adaptar sus planes (presupuestos, compras, contrataciones...),
+- [Cumplimiento jurídico](./juridico.md#acta-y-acuerdo), si el acuerdo requiere un acta formal,
+- etc.
+
+Para facilitar el registro:
+- Que una persona se encargue de registrar los acuerdos durante la propia reunión, en una lista compartida: qué, quién, cuándo.
+- Revisar esa lista al principio de la reunión siguiente.
+
+Para hacer ver su valor:
+- Si los acuerdos se revisan y se cumplen, la propia dirección ve que sus decisiones se ejecutan; si no, se repiten las mismas discusiones reunión tras reunión.
+
+### Definición de cada indicador
+
+Dirección decide qué indicadores seguir y con qué metas. La definición exacta de cada uno (qué se cuenta, de dónde sale cada dato, cómo se calcula) le parece un detalle técnico. Pero si no se fija por escrito en el [Objetivo e Indicador clave](./direccion.md#objetivo-e-indicador-clave-kpi):
+- cada departamento lo calcula a su manera y las cifras no coinciden,
+- [Sistemas de información, IT](./sistemas_de_informacion.md#catálogo-de-productos-de-datos) no puede automatizarlo en el [Cuadro de mando](./direccion.md#cuadro-de-mando-dashboard),
+- etc.
+
+Para facilitar el registro:
+- Una ficha breve por indicador, en el catálogo de datos que mantiene IT: definición, fórmula, fuente de cada dato, responsable.
+
+Para hacer ver su valor:
+- Las reuniones dedican el tiempo a decidir, y no a discutir de quién es la cifra buena.

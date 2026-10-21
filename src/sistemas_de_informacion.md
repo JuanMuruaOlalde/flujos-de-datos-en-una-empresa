@@ -17,7 +17,7 @@ Es la versión técnica del mapa de flujos que se describe en este libro. Si no 
 #### Equipo informático
 - Ordenadores, móviles, terminales, servidores, impresoras,... Persona o puesto al que está asignado. Fecha de compra. Garantía.
 
-Son equipos que se renevan con frecuencia (cada cuatro o cinco años). Es conveniente llevar un buen inventario.
+Son equipos que se renuevan con frecuencia (cada cuatro o cinco años). Es conveniente llevar un buen inventario.
 
 #### Licencia de software
 - Programa. Número de licencias. A quién están asignadas. Vencimiento. Coste.
@@ -59,13 +59,44 @@ Entre otros muchos, los [Datos maestros](./datos_maestros.md) y sus responsables
 #### Almacén de datos
 - Datos extraídos de todos los sistemas. Filtrados, adecuados y almacenados. Histórico.
 
-IT se encarga de capturar, filtrar, adecuar y almacenar los datos en bruto y preelaborados. Para que los usuarios puedan consultarlos y analizarlos por sí mismos. Lo utilizan sobre todo [Dirección](./direccion.md#cuadro-de-mando) y [Marketing](./marketing.md#estudio-de-comportamiento).
+IT se encarga de capturar, filtrar, adecuar y almacenar los datos en bruto y preelaborados. Para que los usuarios puedan consultarlos y analizarlos por sí mismos. Lo utilizan sobre todo [Dirección](./direccion.md#cuadro-de-mando-dashboard) y [Marketing](./marketing.md#estudio-de-comportamiento).
 
 #### Calidad de los datos
 - Duplicados. Datos incompletos. Datos que no coinciden entre sistemas. Responsable de corregirlos.
 
 Lo ideal es que quien descubre un error lo corrija, o avise a quien mantiene ese dato.
 
+
+## Algunos potenciales puntos de fricción
+
+### Documentación de las integraciones
+
+Quien programa una [Integración](./sistemas_de_informacion.md#integración) entre dos sistemas la deja funcionando y pasa al siguiente proyecto. Documentar qué datos pasan, de dónde a dónde y cuándo no le hace falta: él lo sabe. Pero lo necesitan:
+- quien la tenga que modificar más adelante (a menudo otra persona, o un proveedor distinto),
+- los departamentos usuarios, para saber de dónde vienen sus datos y a quién afecta un cambio en ellos,
+- quien vigila la [Calidad de los datos](./sistemas_de_informacion.md#calidad-de-los-datos),
+- etc.
+
+Para facilitar el registro:
+- Usar herramientas de integración que documenten automáticamente los flujos que gestionan.
+- Que ninguna integración pase a producción sin una ficha mínima: sistemas de origen y destino, datos, frecuencia, responsable.
+
+Para hacer ver su valor:
+- Publicar el mapa de integraciones para toda la empresa. Es, en buena medida, el mapa de fuentes y consumidores de datos que se describe en este libro.
+
+### Uso real de las aplicaciones y las licencias
+
+IT conoce, por los registros de acceso, quién usa realmente cada aplicación y cada [Licencia de software](./sistemas_de_informacion.md#licencia-de-software). Para mantener los sistemas, ese dato le importa poco. Pero es muy útil para:
+- [Administración general, Contabilidad y Finanzas](./administracion.md#centro-de-coste) (repartir el coste del software por centro de coste),
+- [Compras](./compras.md#contrato-o-acuerdo-marco) (renegociar contratos de licencias que no se usan),
+- [Cumplimiento jurídico](./juridico.md#licencia) (no usar más licencias de las contratadas),
+- etc.
+
+Para facilitar el registro:
+- Obtenerlo automáticamente del inicio de sesión único (*single sign-on*) y de las consolas de administración de cada aplicación, en un informe periódico.
+
+Para hacer ver su valor:
+- Que cada departamento vea el coste del software que usa y las licencias asignadas que nadie utiliza; suele ser un ahorro inmediato.
 
 
 ## apéndice: algunos softwares habituales
@@ -98,4 +129,3 @@ Acrónimos:
 - SCADA (Supervisory Control and Data Acquisition)
 - LIMS (Laboratory Information Management System)
 - EDI (Electronic Data Interchange)
-

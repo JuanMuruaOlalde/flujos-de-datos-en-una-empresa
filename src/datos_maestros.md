@@ -1,6 +1,6 @@
-# Datos y categorias maestros globales
+# Datos y categorías maestros globales
 
-Son todo aquello que ha de ser igual en toda la empresa, a nivel de todo el planeta. Todo el mundo ha de tener claro que para interactuar es necesaria la uniformidad y coherencia en esos datos y categorias.
+Son todo aquello que ha de ser igual en toda la empresa, a nivel de todo el planeta. Todo el mundo ha de tener claro que para interactuar es necesaria la uniformidad y coherencia en esos datos y categorías.
 
 Si en alguna parte, por cualquier razón, mantienen alguna variante local de esos datos. En esa parte se han de hacer responsables de las conversiones pertinentes entre los maestros globales y sus respectivas contrapartes locales. Ya que toda interacción con los demás involucra el maestro global.
 

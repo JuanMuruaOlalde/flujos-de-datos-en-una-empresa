@@ -65,7 +65,7 @@ Las cantidades almacenadas pueden estar limitadas por la normativa (ver [Almacen
 #### Autorización ambiental
 - Licencias y autorizaciones. Condiciones impuestas. Vigencia. Controles periódicos exigidos.
 
-Ver también [Cumplimiento jurídico](./juridico.md#requisito-legal).
+Ver también [Cumplimiento jurídico](./juridico.md#normativa-o-requisito-legal).
 
 #### Envases y embalajes
 - Material y peso de los envases de cada artículo. Cantidades puestas en el mercado.
@@ -91,3 +91,38 @@ Se nutre de datos de casi todos:
 - Indicadores ambientales, sociales y de buen gobierno. Por periodo.
 
 Lo piden clientes, bancos e inversores; y, a partir de cierto tamaño, lo exige la ley. Es uno de los mayores consumidores de datos de toda la empresa: huella de carbono, residuos, plantilla, igualdad, formación, accidentes, proveedores, cumplimiento,...
+
+
+## Algunos potenciales puntos de fricción
+
+### Restricciones de aptitud y formación vigente de cada persona
+
+Prevención registra el resultado de la [Vigilancia de la salud](./prevencion_y_medioambiente.md#vigilancia-de-la-salud) y la [Formación en prevención](./prevencion_y_medioambiente.md#formación-en-prevención) para cumplir con sus obligaciones. Pero quienes de verdad necesitan saber si alguien puede hacer una tarea son los que asignan el trabajo:
+- [Fabricación o Servicios](./fabricacion_o_servicios.md#recurso),
+- [Mantenimiento de infraestructuras](./mantenimiento.md#técnico-de-mantenimiento),
+- [Postventa](./postventa.md#aviso-u-orden-de-servicio),
+- etc.
+
+Por miedo a revelar datos de salud, a menudo no se transmite nada.
+
+Para facilitar el registro:
+- Transmitir solo lo imprescindible, sin datos médicos: "apto", "no apto" o la restricción concreta ("no levantar más de 15 kg", "no trabajar en altura"), con su fecha de caducidad.
+- Que formación y aptitudes caducadas aparezcan automáticamente en la planificación, junto a la persona, con antelación suficiente para renovarlas.
+
+Para hacer ver su valor:
+- Que el planificador no pueda asignar una tarea a quien no tiene la aptitud o la formación vigente; así se evitan riesgos y también responsabilidades para quien asigna.
+
+### Huella de carbono por producto
+
+Prevención y Medio Ambiente calcula la [Huella de carbono](./prevencion_y_medioambiente.md#huella-de-carbono) de la empresa, que es lo que le exige el [Informe de sostenibilidad](./prevencion_y_medioambiente.md#informe-de-sostenibilidad). Repartirla por producto le supone un trabajo extra. Pero la huella por producto es cada vez más útil para:
+- [Comercial y Ventas](./comercial_y_ventas.md#oferta-o-presupuesto) (los clientes la piden en ofertas, licitaciones y cuestionarios),
+- [Marketing](./marketing.md#información-comercial-de-producto) (argumento de venta),
+- [Diseño técnico de productos](./diseño_tecnico.md) (ecodiseño: elegir materiales y procesos),
+- etc.
+
+Para facilitar el registro:
+- Calcularla automáticamente a partir de datos que ya existen: la [Lista de materiales](./diseño_tecnico.md#lista-de-materiales-bom), la [Ruta](./fabricacion_o_servicios.md#ruta-u-hoja-de-ruta), los consumos de energía por instalación y los transportes.
+- Guardarla como un dato más del producto, para no rehacer el cálculo cada vez que un cliente la pide.
+
+Para hacer ver su valor:
+- Llevar la cuenta de las ofertas y de los cuestionarios de clientes que se han podido contestar gracias a ella.

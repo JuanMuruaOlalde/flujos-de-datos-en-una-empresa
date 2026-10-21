@@ -71,7 +71,7 @@ En empresas industriales suele necesitar la colaboración de [Diseño técnico d
 
 #### Pedido
 - Información de cabecera: Fechas. Condiciones.
-- Información de líneas: Articulos. Cantidades. Descuentos. Fecha de entrega comprometida.
+- Información de líneas: Artículos. Cantidades. Descuentos. Fecha de entrega comprometida.
 
 Para comprometer una fecha de entrega hay que consultar la disponibilidad en [Almacenes y Logística](./almacenes_y_logistica.md#stock) o la capacidad de [Fabricación o Servicios](./fabricacion_o_servicios.md).
 
@@ -115,3 +115,49 @@ Es uno de los datos de Ventas más útiles para otros departamentos, tales como:
 Acaban en la nómina (ver [Departamento de personal](./departamento_personal.md)).
 
 
+## Algunos potenciales puntos de fricción
+
+### Motivo de pérdida de una oferta
+
+Lo conoce el comercial cuando el cliente le dice que no. Para él la oferta ya está cerrada: apuntar por qué se perdió no le ayuda a vender más mañana. En cambio, es muy útil para:
+- [Marketing](./marketing.md#competidor) (precios y argumentos de la competencia),
+- [Diseño técnico de productos](./diseño_tecnico.md) (lo que el producto no cubre),
+- [Dirección](./direccion.md) (dónde se está perdiendo terreno),
+- etc.
+
+Para facilitar el registro:
+- Pedirlo en el mismo gesto con que se marca la [Oportunidad](./comercial_y_ventas.md#oportunidad) como perdida, con una lista corta de motivos (precio, plazo, producto, competidor...) y un campo opcional para el competidor y su precio. Con una lista larga, se acaba eligiendo siempre "otros".
+- Permitir registrarlo desde el móvil, nada más salir de la visita, o dictado por voz.
+
+Para hacer ver su valor:
+- Devolver periódicamente a los comerciales el resumen de motivos de pérdida, junto con lo que se ha hecho con ellos (un argumento nuevo, una opción de producto, un ajuste de precio).
+- Lo que no funciona bien: hacerlo obligatorio sin devolver nada. Se rellena, pero con el primer motivo de la lista.
+
+### Información recogida en las visitas
+
+Necesidades del cliente, proyectos que tiene en marcha, cambios en su organización, competidores con los que trabaja... El comercial lo lleva en la cabeza y le basta. Registrado como [Acción comercial](./comercial_y_ventas.md#acción-comercial), es útil:
+- para [Marketing](./marketing.md#estudio-de-mercado) (tendencias del mercado),
+- para quien atiende al cliente cuando el comercial no está (vacaciones, bajas, cambio de cartera),
+- para [Postventa](./postventa.md) y [Calidad](./calidad.md) (contexto cuando hay una reclamación),
+- etc.
+
+Para facilitar el registro:
+- Que el CRM esté en el móvil y que registrar una visita lleve menos de un minuto: cliente, fecha y contacto ya rellenos a partir de la agenda; el resto, texto libre o voz.
+- Aceptar registros incompletos (más vale una nota breve que nada) y no exigir campos que nadie va a usar.
+
+Para hacer ver su valor:
+- Que el propio comercial lo aproveche: preparar la siguiente visita leyendo lo anotado en la anterior, ver de un vistazo el historial del cliente.
+- Hay que dejar claro que no es una herramienta de control de su actividad. Si se percibe así, se registra lo justo para cubrir el expediente.
+
+### Previsión de ventas realista
+
+La hacen los comerciales, pero a ellos les sirve poco: lo que les importa es el pedido. Es uno de los datos de Ventas más útiles para otros departamentos (ver [Previsión de ventas](./comercial_y_ventas.md#previsión-de-ventas)). Tiene además un problema de fondo: si la previsión se confunde con los [Objetivos de ventas](./comercial_y_ventas.md#objetivos-de-ventas), cada cual la ajusta según le convenga (a la baja para superar el objetivo, o al alza para conseguir más recursos).
+
+Para facilitar el registro:
+- Partir de una previsión estadística calculada a partir del histórico; el comercial solo corrige lo que sabe que va a cambiar (un cliente nuevo, un proyecto que se cae).
+- Pedirla al nivel de detalle que realmente se usa (familia de artículos y mes, por ejemplo), no artículo a artículo.
+
+Para hacer ver su valor:
+- Separar claramente previsión y objetivo. La previsión es lo que se cree que va a pasar; el objetivo, lo que se quiere que pase.
+- Medir y publicar el acierto de las previsiones, sin penalizar.
+- Mostrar la relación con lo que sí le importa al comercial: las roturas de stock y los retrasos en las entregas a sus clientes salen, muchas veces, de previsiones mal hechas.

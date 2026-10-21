@@ -9,7 +9,7 @@
 
 Los documentos de todos los departamentos pasan por aquí: así se sabe que cada cual trabaja con la versión vigente.
 
-Es importante que se almacecen en un solo sitio, accesible por todas las personas que necesiten consultarlos. Así se evita tener que recurrir a copias "controladas" (que suelen tener una gran tendencia a quedar desactualizadas).
+Es importante que se almacenen en un solo sitio, accesible por todas las personas que necesiten consultarlos. Así se evita tener que recurrir a copias "controladas" (que suelen tener una gran tendencia a quedar desactualizadas).
 
 #### Certificación
 - Norma (ISO 9001, normas sectoriales...). Alcance. Entidad certificadora. Vigencia.
@@ -93,3 +93,36 @@ Para evaluar la puntualidad del proveedor se usan los datos de entregas de [Comp
 - Encuestas. Puntuaciones. Comentarios. Por cliente y periodo.
 
 También le interesa a [Marketing](./marketing.md) y a [Comercial y Ventas](./comercial_y_ventas.md).
+
+
+## Algunos potenciales puntos de fricción
+
+### Lecciones aprendidas de las no conformidades
+
+Al cerrar una [Reclamación de cliente](./calidad.md#reclamación-de-cliente) o una [Acción correctiva o preventiva](./calidad.md#acción-correctiva-o-preventiva), Calidad ya ha resuelto el problema. Redactar además la lección aprendida, de forma que se pueda aplicar a otros productos o procesos, no le resuelve nada más. Pero es muy útil para:
+- [Diseño técnico de productos](./diseño_tecnico.md) (no repetir el error en los diseños nuevos),
+- [Fabricación o Servicios](./fabricacion_o_servicios.md#ruta-u-hoja-de-ruta) (al industrializar productos parecidos),
+- [Compras](./compras.md#proveedor) (al seleccionar proveedores para piezas similares),
+- [Comercial y Ventas](./comercial_y_ventas.md#oferta-o-presupuesto) (al aceptar exigencias parecidas de otro cliente),
+- etc.
+
+Para facilitar el registro:
+- Un campo específico, breve, al cerrar la acción ("¿qué haríamos distinto la próxima vez?"), con etiquetas por familia de artículo, por proceso y por tipo de fallo para poder encontrarla después.
+
+Para hacer ver su valor:
+- Que las lecciones aparezcan solas donde se necesitan: en la revisión de un diseño nuevo de esa familia de artículos, en la petición de oferta de una pieza similar, etc. Una base de lecciones que nadie consulta acaba por no alimentarse.
+
+### Valoración económica de los defectos
+
+Para resolver una [No conformidad](./calidad.md#no-conformidad) basta con saber qué falla y cuántas piezas están afectadas. Cuánto cuesta (piezas desechadas, horas de reproceso, transportes, desplazamientos, penalizaciones) a Calidad no le hace falta para resolverla. Sin embargo, el [Coste de la no calidad](./calidad.md#coste-de-la-no-calidad) es un dato muy útil para:
+- [Dirección](./direccion.md) (decidir dónde invertir en mejoras),
+- [Administración general, Contabilidad y Finanzas](./administracion.md#rentabilidad) (rentabilidad real de productos y clientes),
+- [Compras](./compras.md) (repercutir al proveedor lo que le corresponde),
+- etc.
+
+Para facilitar el registro:
+- Que Calidad registre solo cantidades (piezas, horas, kilómetros) y que el sistema las valore con los costes estándar que ya mantiene Administración (ver [Coste estándar del artículo](./administracion.md#coste-estándar-del-artículo)).
+- Recoger automáticamente lo que ya está en otros registros: horas de reproceso en los partes de fabricación, desplazamientos en los partes de intervención de Postventa, etc.
+
+Para hacer ver su valor:
+- Presentar los problemas de calidad en euros en las reuniones de dirección: un problema valorado consigue recursos para resolverse mucho antes que uno descrito solo en porcentaje de defectos.

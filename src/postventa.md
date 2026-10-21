@@ -81,3 +81,54 @@ Lo vende [Comercial y Ventas](./comercial_y_ventas.md#contrato-de-servicio-o-sus
 - Tareas preventivas. Frecuencia. Próxima visita.
 
 Parecido al que mantiene [Mantenimiento de infraestructuras](./mantenimiento.md#plan-de-mantenimiento-preventivo) para las instalaciones propias.
+
+
+## Algunos potenciales puntos de fricción
+
+### Causa del fallo en el parte de intervención
+
+La conoce el técnico, pero lo que a él le importa es dejar el equipo funcionando y pasar al siguiente aviso. Registrada en el [Parte de intervención](./postventa.md#parte-de-intervención), la causa del fallo es muy útil para:
+- [Diseño técnico de productos](./diseño_tecnico.md#solicitud-de-cambio-o-petición-de-estudio) (fallos que se repiten),
+- [Calidad](./calidad.md#acción-correctiva-o-preventiva) (acciones correctivas),
+- [Compras](./compras.md#proveedor) (componentes de un proveedor que fallan más),
+- etc.
+
+Para facilitar el registro:
+- Una lista corta de causas por familia de equipo, en el móvil, y texto libre solo para los casos raros.
+- Proponer la causa más probable a partir de los síntomas y de las [Soluciones conocidas](./postventa.md#solución-conocida); el técnico solo la confirma o la corrige.
+- Admitir una foto de la pieza dañada como registro mínimo; la codificación la puede hacer después otra persona.
+
+Para hacer ver su valor:
+- Devolverle al técnico la base de soluciones conocidas que se construye con esas causas: ve que lo que registra hoy le ahorra tiempo mañana, a él y a sus compañeros.
+- Contar qué cambios de diseño o de proveedor se han hecho gracias a esos datos.
+- No convertirlo en un indicador individual. Si una causa "le compromete", acabará registrándose otra más inocua.
+
+### Configuración real del equipo después de la intervención
+
+Cuando se sustituye un componente por otro de distinta versión, o se actualiza el software, el [Equipo instalado](./postventa.md#equipo-instalado) deja de ser como se entregó. Al técnico que está allí no le hace falta apuntarlo: lo está viendo. Pero lo necesitan:
+- el siguiente técnico que vaya (y que preparará los repuestos según lo que dice el sistema),
+- la [trazabilidad](./fabricacion_o_servicios.md#lote-o-número-de-serie), si hay que localizar los equipos con un componente defectuoso,
+- [Comercial y Ventas](./comercial_y_ventas.md) (equipos antiguos, candidatos a renovación o a mejora),
+- etc.
+
+Para facilitar el registro:
+- Que registrar el repuesto montado (leyendo su etiqueta o su número de serie) actualice automáticamente la configuración del equipo.
+- Para el software, que el propio equipo informe de su versión si está conectado (ver [Datos de uso del equipo](./postventa.md#datos-de-uso-del-equipo)).
+
+Para hacer ver su valor:
+- Recordar los casos en que un técnico se desplazó con el repuesto equivocado porque la configuración no estaba al día.
+
+### Repuestos consumidos del vehículo
+
+El técnico coge del vehículo lo que necesita y sigue trabajando. Si no registra el consumo:
+- el stock de [Almacenes y Logística](./almacenes_y_logistica.md#stock) no es real,
+- no se puede facturar al cliente lo que no cubre la garantía (ver [Factura de cliente](./administracion.md#factura-de-cliente)),
+- [Compras](./compras.md) no repone a tiempo,
+- etc.
+
+Para facilitar el registro:
+- Leer la etiqueta del repuesto con el móvil al usarlo, dentro del propio parte de intervención.
+- Proponer los repuestos habituales de esa avería, para que solo haya que confirmarlos.
+
+Para hacer ver su valor:
+- Reponer el vehículo automáticamente según lo consumido. Así el primer beneficiado es el propio técnico: lo que registra hoy es lo que encontrará repuesto mañana; lo que no registra, le faltará.

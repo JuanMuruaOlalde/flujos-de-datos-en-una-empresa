@@ -136,7 +136,7 @@ Los datos para calcular provisiones pueden venir de varias fuentes:
 #### Cierre y Cuentas anuales
 - Balance. Cuenta de resultados. Memoria. Informe de auditoría. Depósito en el registro.
 
-Antes de cada cierre hace falta que todos los departamentos hayan registrado lo suyo: recepciones, consumos, partes, facturas... Después de cada cierre ya no se puede inputar nada con fecha anterior al cierre; las correcciones van como correcciones en el siguiente periodo.
+Antes de cada cierre hace falta que todos los departamentos hayan registrado lo suyo: recepciones, consumos, partes, facturas... Después de cada cierre ya no se puede imputar nada con fecha anterior al cierre; las correcciones van como correcciones en el siguiente periodo.
 
 Las cuentas anuales han de depositarse en el registro. El cierre anual es una obligación legal.
 
@@ -151,7 +151,7 @@ Las ventas y compras entre sociedades del grupo han de coincidir en ambos lados;
 - Materiales, mano de obra y gastos generales previstos para cada artículo. Fecha de cálculo.
 
 Se calcula con:
-- la [Lista de materiales](./diseño_tecnico.md#lista-de-materiales),
+- la [Lista de materiales](./diseño_tecnico.md#lista-de-materiales-bom),
 - la [Ruta](./fabricacion_o_servicios.md#ruta-u-hoja-de-ruta),
 - las tarifas de [Compras](./compras.md#tarifa-del-proveedor),
 - el coste por hora de cada [Puesto](./fabricacion_o_servicios.md#puesto-o-centro-de-trabajo),
@@ -159,7 +159,7 @@ Se calcula con:
 
 Comercial y Ventas lo necesita para fijar precios.
 
-Comparándo el coste estándar con el [Coste real](./fabricacion_o_servicios.md#coste-real-de-fabricación) salen las desviaciones.
+Comparando el coste estándar con el [Coste real](./fabricacion_o_servicios.md#coste-real-de-fabricación) salen las desviaciones.
 
 #### Valoración de existencias
 - Valor del stock por artículo y almacén. Método de valoración (coste estándar, precio medio...).
@@ -171,7 +171,7 @@ Las cantidades las da [Almacenes y Logística](./almacenes_y_logistica.md#stock)
 
 Se calcula cruzando las ventas con los costes.
 
-Lo consultan [Dirección](./direccion.md#cuadro-de-mando) y [Comercial y Ventas](./comercial_y_ventas.md).
+Lo consultan [Dirección](./direccion.md#cuadro-de-mando-dashboard) y [Comercial y Ventas](./comercial_y_ventas.md).
 
 #### Seguimiento del presupuesto
 - Real frente a presupuesto, por centro de coste y cuenta. Desviaciones. Explicaciones.
@@ -198,3 +198,37 @@ Para fijar los capitales hace falta el valor de las instalaciones y del stock. V
 - Fecha. Qué ha pasado. Póliza. Daños. Reclamación a la aseguradora. Indemnización.
 
 Los datos los aportan quienes sufren el daño: [Almacenes y Logística](./almacenes_y_logistica.md#incidencia-de-entrega) (mercancía dañada en el transporte), [Mantenimiento de infraestructuras](./mantenimiento.md#orden-de-trabajo) (averías, incendios), [Prevención y Medio Ambiente](./prevencion_y_medioambiente.md#accidente-o-incidente) (accidentes), etc.
+
+
+## Algunos potenciales puntos de fricción
+
+### Motivo del retraso en un cobro
+
+Quien gestiona los cobros se entera de por qué un cliente no paga: está esperando un abono, tiene una reclamación abierta, discrepa de un precio, tiene problemas de liquidez... A Administración le basta con saber que la factura sigue pendiente. Pero el motivo es muy útil para:
+- [Comercial y Ventas](./comercial_y_ventas.md#pedido) (antes de aceptar nuevos pedidos, o para resolver la discrepancia),
+- [Postventa](./postventa.md#incidencia-o-reclamación) y [Calidad](./calidad.md#reclamación-de-cliente) (una reclamación sin resolver puede estar bloqueando el cobro),
+- la [Previsión de tesorería](./administracion.md#previsión-de-tesorería) (no es lo mismo un retraso administrativo que una insolvencia),
+- etc.
+
+Para facilitar el registro:
+- Un campo de motivo, con una lista corta, en el propio [Vencimiento de cobro](./administracion.md#vencimiento-de-cobro), que se rellena en la misma pantalla desde la que se reclama al cliente.
+- Enlazar el cobro pendiente con la incidencia, el abono o la reclamación que lo bloquea, en vez de describirlo con texto libre.
+
+Para hacer ver su valor:
+- Que el comercial reciba un aviso automático cuando se registra un retraso por discrepancia en un cliente suyo: así se resuelven antes, y Administración cobra antes.
+- Medir cuánto tardan en cobrarse las facturas bloqueadas por cada tipo de motivo; suele sorprender.
+
+### Imputación analítica de los gastos
+
+Al contabilizar una factura de proveedor, para las cuentas legales basta con la cuenta contable. El [Centro de coste](./administracion.md#centro-de-coste), el proyecto o la actividad a los que corresponde el gasto apenas le importan a Contabilidad. Sin embargo, son los datos que necesitan:
+- cada responsable de centro de coste, para su [Seguimiento del presupuesto](./administracion.md#seguimiento-del-presupuesto),
+- quien calcula la [Rentabilidad](./administracion.md#rentabilidad) de clientes, productos o proyectos,
+- [Dirección](./direccion.md#cuadro-de-mando-dashboard),
+- etc.
+
+Para facilitar el registro:
+- Que la imputación venga ya de origen: de la [Solicitud de compra](./compras.md#solicitud-de-compra) o del pedido. Al contabilizar la factura, solo se comprueba.
+- Reglas de imputación por defecto (por proveedor, por tipo de gasto) para las facturas que no vienen de un pedido: suministros, alquileres, servicios recurrentes...
+
+Para hacer ver su valor:
+- Que cada responsable vea su seguimiento del presupuesto, actualizado, y pueda bajar hasta la factura. Cuando alguien encuentra un gasto que no es suyo en su centro de coste, la imputación mejora rápido.
